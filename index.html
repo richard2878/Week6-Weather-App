@@ -1,0 +1,85 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Richard's Weather App</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    
+    <div class="container">
+        <h2 id="weatherDasboard">WEATHER DASHBOARD</h2>
+        <!-- Row 1 -->
+        <div class="row">
+            <div class="col-sm-3">
+                <h6>Search City</h6>
+                <input type="text" autocomplete="off" id="search-city" placeholder="Search for a city.."/>
+                <div id="searched-cities">Los Angeles, CA</>
+            </div>
+            <div class="col-sm-6"></div> 
+            <div class="col-sm-3"></div> 
+        </div>
+        <!-- Row 2 -->
+        <div class="row">
+            <div class="col-sm-3"></div> 
+            <div class="col-sm-6" style="text-align: center;">
+                <section class="location">
+                    <div class="current-city">City, Country</div>
+                    <div class="current-date">Day, Date, Month, Year</div>
+                    <div class="current-description">Clear</div>
+                </section>
+                <div id="current-temp">T&#8457;</div>
+                <div id="current-humidity">10%</div>
+                <div id="current-windSpeed">5 mph</div>
+                <div id="current-uvIndex">UV</div>
+            </div>
+            <div class="col-sm-3"></div>  
+        </div>
+        <div class="row">
+            <div class="col-sm-2.4">
+                <section class="card" style="text-align: center;"> Day 1
+                    <div class="dayWeek1">Someday</div>
+                    <div class="temp1">Temp</div>
+                    <div class="condition1">Sunny</div>
+                    <div class="humidity1">10%</div>
+                </section>
+            </div>    
+            <div class="col-sm-2.4">
+                <section class="card" style="text-align: center;"> Day 2
+                    <div class="dayWeek2">Someday</div>
+                    <div class="temp2">Temp</div>
+                    <div class="condition2">Sunny</div>
+                    <div class="humidity2">10%</div>
+                </section>
+            </div>
+            <div class="col-sm-2.4">
+                <section class="card" style="text-align: center;"> Day 3
+                    <div class="dayWeek3">Someday</div>
+                    <div class="temp3">Temp</div>
+                    <div class="condition3">Sunny</div>
+                    <div class="humidity3">10%</div>
+                </section>
+            </div>
+            <div class="col-sm-2.4">
+                <section class="card" style="text-align: center;"> Day 4
+                    <div class="dayWeek4">Someday</div>
+                    <div class="temp4">Temp</div>
+                    <div class="condition4">Sunny</div>
+                    <div class="humidity4">10%</div>
+                </section>
+            </div> 
+            <div class="col-sm-2.4">
+                <section class="card" style="text-align: center;"> Day 5
+                    <div class="dayWeek5">Someday</div>
+                    <div class="temp5">Temp</div>
+                    <div class="condition5">Sunny</div>
+                    <div class="humidity5">10%</div>
+                </section>
+            </div>                
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
